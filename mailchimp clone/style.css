@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #f9e0fa;
+    height: 450px;
+    padding: 30px;
+  }
+  .container2{
+    background-color: #ffffff;
+    height: 450px;
+    padding: 30px;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .container3{
+    background-color: #f6f6f4;
+    height: 450px;
+    padding: 30px;
+    
+    text-align: center;
+    
+  }
+  .container3 .parts{
+    width: 800px;
+    margin: 0 auto;
+  }
+  nav{
+    height:100px;
+    font-size: 10px;
+    font-family: Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+    margin-top: -25px;
+  }
+  nav ul {
+    list-style-type:none;
+    grid-column: 1/2;
+  }
+  nav ul li{
+      display: inline;
+      margin-right: 5px;
+  }
+  .nav-links{
+      font-size: 12px;
+  }
+  .log-in,.sign-up{
+      padding: 15px;
+      font-weight: bold;
+  }
+  .link{
+    font-size: 12px;
+    color: #007C89;
+      font-weight: bold;
+  }
+  .sign-up{    
+    font-size: 10px;
+    background: #007C89;
+    color: #ffffff;
+  }
+  .log-in{
+    font-size: 10px;
+    /* width: 90px; */
+    background: transparent;
+    color: #000000;
+  }
+  button{
+      border: 0;
+  }
+  .nav-buttons{
+      float: right;
+      position: relative;
+      bottom: 80px;
+  }
+  .parts{
+    display:grid;
+    grid-template-columns: 50% 50%;
+  }
+  .part1{
+    font-size:30px;
+    width: 600px;
+  }
+  .img1{
+    width:400px;
+    height:400px;
+  }
+  h1{
+      font-family: Cooper,Georgia,Times,Times New Roman,serif;
+      font-size: 45px;
+      font-weight: 300;
+  }
+  h2{
+      font-size: 39px;
+      font-weight:300;
+      font-family: helvetica,Georgia,Times,Times New Roman,serif;
+      text-align: center;
+  }
+  h3{
+      font-size:27px;
+  }
+  .intro{
+      font-family: Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+      font-size: 1.25rem;
+  }
+  .text{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+  }
+  .part4{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+  }
+  .part5{
+      text-align: left;
+  }
+  a{
+      text-decoration: none;
+      color: #007c89;
+  }
